@@ -147,26 +147,14 @@ class GameFragment : Fragment(), View.OnClickListener {
     }
 
     private fun calculateBotMoves(): Int {
-        var center = 4
-        var corners = arrayOf(0, 2, 6, 8)
-        var inbetweeners = arrayOf(1, 3, 5, 7)
+        val center = 4
+        val corners = arrayOf(0, 2, 6, 8)
+        val inbetweeners = arrayOf(1, 3, 5, 7)
         var bestMove = 0
         var movesOnLine = 0
 
 
         for(pattern in winningPatterns) {
-            for (move in xArray) {
-                if(pattern.contains(move)) {
-                    movesOnLine++
-                }
-            }
-            if(movesOnLine == 2) {
-                for(i in 0..8) {
-                    if (pattern.contains(i.toString()) && !occupiedSelections.contains(i)) {
-                        return i
-                    }
-                }
-            }
             for (move in oArray) {
                 if(pattern.contains(move)) {
                     movesOnLine++
@@ -179,6 +167,7 @@ class GameFragment : Fragment(), View.OnClickListener {
                     }
                 }
             }
+
 
             movesOnLine = 0
         }
