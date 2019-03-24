@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "90596746522",
+    "firebase_url": "https://tictactoe-c2f50.firebaseio.com",
+    "project_id": "tictactoe-c2f50",
+    "storage_bucket": "tictactoe-c2f50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90596746522:android:1e8193742f0eea41",
+        "android_client_info": {
+          "package_name": "no.vipps.md"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90596746522-94g5n5hd0ooejgbrgq68p7gn3ksk0hdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8qmuj86ubR79QCEr5sXKHU3ifpVNPOMk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
